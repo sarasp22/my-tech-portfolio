@@ -433,13 +433,16 @@ h1 {
 
 .skill-card {
     display: flex;
-    gap: 1.5rem;
-    padding: 2rem;
+    align-items: center;
+    gap: 1rem;
     background: var(--bg);
     border: 1px solid var(--border);
     border-radius: 12px;
     transition: all 0.3s ease;
     cursor: pointer;
+    width: 200px;
+    height: 50px;
+    padding: 0 1rem;
 }
 
 .skill-card:hover {
@@ -449,23 +452,18 @@ h1 {
 }
 
 .skill-icon {
-    font-size: 2.5rem;
     flex-shrink: 0;
     transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
 }
 
 .skill-card:hover .skill-icon {
     transform: scale(1.1) rotate(-5deg);
 }
 
-.skill-details {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-}
-
-.skill-card h3 {
-    font-size: 1.2rem;
+.skill-details h3 {
+    font-size: 1.1rem;
     font-weight: 600;
     color: var(--text);
     margin: 0;
@@ -632,8 +630,9 @@ h1 {
 }
 
 .logo {
-  max-width: 20px;
-  max-height: 20px;
+  max-width: 30px;
+  max-height: 30px;
+  object-fit: contain;
 }
 
 .skills-wrapper {
