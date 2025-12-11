@@ -30,7 +30,7 @@
 
     <nav class="navbar">
         <div class="nav-container">
-            <div class="logo">Sara Spadari</div>
+            <div class="logoname">Sara Spadari</div>
             <div class="nav-links">
                 <a href="index.html" class="nav-link">Accueil</a>
                 <a href="projects.html" class="nav-link">Projets</a>
@@ -55,11 +55,11 @@
       <div>
         <h1 class="hero-title">
               <span class="text blue">Hello</span>
-                <span class="line">I'm Sara, A junior Web Developer</span>
+                <span class="line">Je suis Sara, </span>
             </h1>
             <p class="hero-description">
-              En reconversion vers le développement web, avec une forte appétence pour le front-end et l’UX.
-            </p>
+            Développeuse web formée au full-stack chez Le Wagon, avec une affinité
+            particulière pour le front-end et l’optimisation d’expériences utilisateurs.            </p>
           </div>
           <div class="title-section">
             <img src="/assets/images/Foto.jpg" alt="Foto me stessa">
@@ -145,115 +145,142 @@
         </div>
     </section>
 
-    <section class="skills-section section" id="skills">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-label">Expertise</span>
-                <h2 class="section-title">Compétences & Technologies</h2>
-            </div>
-
-            <div class="skills-wrapper">
-
-    <div class="category-tabs">
-        <button class="tab-button active" data-target="frontend-skills">Frontend</button>
-        <button class="tab-button" data-target="backend-skills">Backend</button>
-        <button class="tab-button" data-target="devops-skills">DevOps</button>
-    </div>
-
-    <div class="skills-content-container">
-
-        <div id="frontend-skills" class="skills-panel active">
-
-            <div class="skills-grid">
-
-                <div class="skill-card">
-                    <div class="skill-icon">⚛️</div>
-                    <h3>React & Vue.js</h3>
-                    <p>Développement d'applications web interactives et composants réutilisables</p>
-                </div>
-
-                <div class="skill-card">
-                    <div class="skill-icon">🎨</div>
-                    <h3>UI/UX Design</h3>
-                    <p>Création d'interfaces intuitives avec Figma et Adobe XD</p>
-                </div>
-
-                <div class="skill-card">
-                    <div class="skill-icon">⚡</div>
-                    <h3>Performance</h3>
-                    <p>Optimisation et meilleures pratiques pour un web rapide</p>
-                </div>
-
-                <div class="skill-card">
-                    <div class="skill-icon">📱</div>
-                    <h3>Responsive Design</h3>
-                    <p>Expériences fluides sur tous les appareils et résolutions</p>
-                </div>
-            </div>
-            </div>
-
-        <div id="backend-skills" class="skills-panel">
-
-            <div class="skills-grid">
-
-                <div class="skill-card">
-                    <div class="skill-icon">🐍</div>
-                    <h3>Python & Node.js</h3>
-                    <p>Sviluppo di API e servizi lato server robusti.</p>
-                </div>
-
-                <div class="skill-card">
-                    <div class="skill-icon">🐍</div>
-                    <h3>Python & Node.js</h3>
-                    <p>Sviluppo di API e servizi lato server robusti.</p>
-                </div>
-
-                <div class="skill-card">
-                    <div class="skill-icon">🐍</div>
-                    <h3>Python & Node.js</h3>
-                    <p>Sviluppo di API e servizi lato server robusti.</p>
-                </div>
-                              </div>
+<section class="skills-section section" id="skills">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-label">Expertise</span>
+            <h2 class="section-title">Compétences & Technologies</h2>
         </div>
 
-        <div id="devops-skills" class="skills-panel">
-            <div class="skills-grid">
+        <div class="skills-wrapper">
+            <div class="category-tabs">
+                <button class="tab-button active" data-target="frontend-skills">
+                    <span class="tab-icon">💻</span>
+                    <span class="tab-label">Frontend</span>
+                </button>
+                <button class="tab-button" data-target="backend-skills">
+                    <span class="tab-icon">⚙️</span>
+                    <span class="tab-label">Backend</span>
+                </button>
+                <button class="tab-button" data-target="tools-skills">
+                    <span class="tab-icon">🛠️</span>
+                    <span class="tab-label">Outils</span>
+                </button>
+            </div>
 
-                <div class="skill-card">
-                    <div class="skill-icon">🐳</div>
-                    <h3>Docker & Kubernetes</h3>
-                    <p>Containerizzazione e orchestrazione per la scalabilità.</p>
+            <div class="skills-content">
+
+                <div id="frontend-skills" class="skills-panel active">
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon"><img src="/assets/images/html.png" alt="html logo" class="logo"></div>
+                            <div class="skill-details">
+                                <h3>HTML</h3>
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">🎨</div>
+                            <div class="skill-details">
+                                <h3>HTML & CSS</h3>
+                                <p>Création d'interfaces modernes avec Tailwind, SASS et CSS Grid</p>
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">✨</div>
+                            <div class="skill-details">
+                                <h3>JavaScript / TypeScript</h3>
+                                <p>Code moderne ES6+ et typage statique pour plus de robustesse</p>
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">📱</div>
+                            <div class="skill-details">
+                                <h3>Responsive Design</h3>
+                                <p>Expériences fluides sur tous les appareils et résolutions</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="skill-card">
-                    <div class="skill-icon">🐍</div>
-                    <h3>Python & Node.js</h3>
-                    <p>Sviluppo di API e servizi lato server robusti.</p>
+                <!-- Backend Panel -->
+                <div id="backend-skills" class="skills-panel">
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">🟢</div>
+                            <div class="skill-details">
+                                <h3>Node.js</h3>
+                                <p>Développement d'API RESTful et services backend performants</p>
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">🗄️</div>
+                            <div class="skill-details">
+                                <h3>Bases de données</h3>
+                                <p>MongoDB, PostgreSQL et gestion des données structurées</p>
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">🔐</div>
+                            <div class="skill-details">
+                                <h3>Authentication</h3>
+                                <p>JWT, OAuth et sécurisation des applications web</p>
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">🌐</div>
+                            <div class="skill-details">
+                                <h3>APIs</h3>
+                                <p>Intégration et création d'API REST et GraphQL</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="skill-card">
-                    <div class="skill-icon">🐍</div>
-                    <h3>Python & Node.js</h3>
-                    <p>Sviluppo di API e servizi lato server robusti.</p>
+                <!-- Tools Panel -->
+                <div id="tools-skills" class="skills-panel">
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">🎯</div>
+                            <div class="skill-details">
+                                <h3>Git & GitHub</h3>
+                                <p>Gestion de version et collaboration en équipe</p>
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">🎨</div>
+                            <div class="skill-details">
+                                <h3>Figma & Adobe XD</h3>
+                                <p>Design d'interfaces et prototypage interactif</p>
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">📦</div>
+                            <div class="skill-details">
+                                <h3>Webpack & Vite</h3>
+                                <p>Bundling et optimisation des assets frontend</p>
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">🧪</div>
+                            <div class="skill-details">
+                                <h3>Testing</h3>
+                                <p>Jest, Vitest et tests unitaires pour code robuste</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
-    </div>
-
-            <div class="tech-stack">
-                <div class="tech-item">JavaScript</div>
-                <div class="tech-item">TypeScript</div>
-                <div class="tech-item">React</div>
-                <div class="tech-item">Vue.js</div>
-                <div class="tech-item">Next.js</div>
-                <div class="tech-item">Tailwind CSS</div>
-                <div class="tech-item">SASS</div>
-                <div class="tech-item">Git</div>
-                <div class="tech-item">Figma</div>
-                <div class="tech-item">Node.js</div>
-            </div>
-        </div>
+      </div>
     </section>
 
     <section class="contact-section section" id="contact">
@@ -421,80 +448,143 @@ cards.forEach(card => {
 });
 
 
-const words = ["Salut", "Ciao", "Hello", "Hola", "Olà"],
-  colors = ["violet", "violet", "violet", "violet", "violet"],
-  text = document.querySelector(".text");
+const words = ["Salut", "Ciao", "Hello", "Hola", "Olà"];
+const colors = ["violet", "violet", "violet", "violet", "violet"];
+const text = document.querySelector(".text");
 
 function* generator() {
-  var index = 0;
+  let index = 0;
   while (true) {
-    yield index++;
-
-    if (index > 3) {
-      index = 0;
-    }
+    yield index;
+    index = (index + 1) % words.length;
   }
 }
 
-function printChar(word) {
+const gen = generator();
+
+function printChar(word, index) {
   let i = 0;
   text.innerHTML = "";
-  text.classList.add(colors[words.indexOf(word)]);
-  let id = setInterval(() => {
+  text.classList.add(colors[index]);
+
+  const id = setInterval(() => {
     if (i >= word.length) {
-      deleteChar();
       clearInterval(id);
+      deleteChar(index);
     } else {
       text.innerHTML += word[i];
       i++;
     }
-  }, 500);
+  }, 300); // 
 }
 
-function deleteChar() {
-  let word = text.innerHTML;
-  let i = word.length - 1;
-  let id = setInterval(() => {
+function deleteChar(index) {
+  let i = text.innerHTML.length - 1;
+
+  const id = setInterval(() => {
     if (i >= 0) {
-      text.innerHTML = text.innerHTML.substring(0, text.innerHTML.length - 1);
+      text.innerHTML = text.innerHTML.slice(0, -1);
       i--;
     } else {
-      text.classList.remove(colors[words.indexOf(word)]);
-      printChar(words[gen.next().value]);
       clearInterval(id);
+      text.classList.remove(colors[index]);
+
+      const next = gen.next().value;
+      printChar(words[next], next);
     }
-  }, 300);
+  }, 150);
 }
 
-let gen = generator();
 
-printChar(words[gen.next().value]);
-
-
-    document.addEventListener('DOMContentLoaded', () => {
-
-        const tabButtons = document.querySelectorAll('.tab-button');
-
-        const contentPanels = document.querySelectorAll('.skills-panel');
-
-        tabButtons.forEach(button => {
-            button.addEventListener('click', () => {
-                const targetId = button.getAttribute('data-target');
+printChar(words[0], 0);
 
 
-                tabButtons.forEach(btn => btn.classList.remove('active'));
+document.addEventListener('DOMContentLoaded', () => {
+    const tabButtons = document.querySelectorAll('.tab-button');
+    const skillsPanels = document.querySelectorAll('.skills-panel');
 
-                button.classList.add('active');
+    tabButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const targetId = button.getAttribute('data-target');
 
+            tabButtons.forEach(btn => btn.classList.remove('active'));
 
-                contentPanels.forEach(panel => panel.classList.remove('active'));
+            button.classList.add('active');
 
-                const targetPanel = document.getElementById(targetId);
-                if (targetPanel) {
-                    targetPanel.classList.add('active');
-                }
+            skillsPanels.forEach(panel => {
+                panel.classList.remove('active');
             });
+
+            const targetPanel = document.getElementById(targetId);
+            if (targetPanel) {
+                setTimeout(() => {
+                    targetPanel.classList.add('active');
+                }, 50);
+            }
         });
     });
 
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+
+    const skillCardsObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry, index) => {
+            if (entry.isIntersecting) {
+                setTimeout(() => {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }, index * 100);
+            }
+        });
+    }, observerOptions);
+
+    const skillCards = document.querySelectorAll('.skill-card');
+    skillCards.forEach(card => {
+        card.style.opacity = '0';
+        card.style.transform = 'translateY(20px)';
+        card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        skillCardsObserver.observe(card);
+    });
+
+    skillCards.forEach(card => {
+        card.addEventListener('mousemove', (e) => {
+            const rect = card.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+
+            const centerX = rect.width / 2;
+            const centerY = rect.height / 2;
+
+            const rotateX = (y - centerY) / 20;
+            const rotateY = (centerX - x) / 20;
+
+            card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-5px)`;
+        });
+
+        card.addEventListener('mouseleave', () => {
+            card.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) translateY(0)';
+        });
+    });
+
+    const techItems = document.querySelectorAll('.tech-item');
+    const techObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry, index) => {
+            if (entry.isIntersecting) {
+                setTimeout(() => {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }, index * 50);
+            }
+        });
+    }, observerOptions);
+
+    techItems.forEach(item => {
+        item.style.opacity = '0';
+        item.style.transform = 'translateY(10px)';
+        item.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
+        techObserver.observe(item);
+    });
+});
 </script>
