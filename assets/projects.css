@@ -270,6 +270,12 @@ body {
     overflow: hidden;
 }
 
+.project-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .project-image-placeholder {
     color: rgba(139, 92, 246, 0.2);
     transition: all 0.4s;
@@ -529,5 +535,3 @@ body {
             50% { transform: translate(0, -60px) rotate(180deg); }
             75% { transform: translate(-30px, -30px) rotate(270deg); }
         }
-
-
